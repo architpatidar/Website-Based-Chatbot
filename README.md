@@ -7,6 +7,10 @@
 
 
 The Web Context Chatbot is a specialized AI tool designed to bridge the gap between static web content and interactive AI. By providing a URL, the system scrapes the live website, processes its text into manageable segments, and stores them in a local vector database. Users can then ask natural language questions and receive accurate answers derived exclusively from the indexed site, ensuring high relevance and reducing AI hallucinations.
+
+## 🔗 Live Demo
+You can access the live version of this project here:
+[**Deploy to Streamlit**](https://web-based-chatbot.streamlit.app/)
 ## 🏗️ Architecture Explanation
 
 The project follows a modular RAG (Retrieval-Augmented Generation) architecture, split into five core operations:
