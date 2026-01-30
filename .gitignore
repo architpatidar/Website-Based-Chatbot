@@ -1,0 +1,25 @@
+# --- SENSITIVE DATA (CRITICAL) ---
+.env
+
+# --- PYTHON & CACHE ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# --- VECTOR DATABASE (Large local files) ---
+vector_db/
+
+# --- STREAMLIT SPECIFIC ---
+.streamlit/
+
+# --- SYSTEM & IDE FILES ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+
+webchatbot/
